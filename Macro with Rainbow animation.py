@@ -1,3 +1,6 @@
+# Drop the `pmk` folder
+# into your `lib` folder on your `CIRCUITPY` drive.
+
 import time
 import math
 from pmk import PMK, number_to_xy, hsv_to_rgb
