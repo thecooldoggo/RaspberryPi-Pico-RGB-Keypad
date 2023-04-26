@@ -1,4 +1,5 @@
-# Drop into the `CIRCUITPY` drive.
+# Drop into the `CIRCUITPY` drive. 
+# A fast-moving rainbow matrix effect.
 import math
 from pmk import PMK, number_to_xy, hsv_to_rgb
 from pmk.platform.rgbkeypadbase import RGBKeypadBase as Hardware
