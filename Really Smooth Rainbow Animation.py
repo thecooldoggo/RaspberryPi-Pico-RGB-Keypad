@@ -1,6 +1,4 @@
-# Drop the `pmk` folder
-# into your `lib` folder on your `CIRCUITPY` drive.
-
+# Drop into the `CIRCUITPY` drive.
 import math
 from pmk import PMK, number_to_xy, hsv_to_rgb
 from pmk.platform.rgbkeypadbase import RGBKeypadBase as Hardware  # for Pico RGB Keypad Base
