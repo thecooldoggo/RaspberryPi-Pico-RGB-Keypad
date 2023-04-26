@@ -1,4 +1,5 @@
 # Pico-RGB-keypad
+# Rename any code that you put onto your drive as `code.py`!
 ![pico-addons-2_768x768](https://user-images.githubusercontent.com/130795558/234717882-0cef0608-8030-4dcd-8f8f-585d41e2b450.jpg)
 
 
@@ -17,7 +18,10 @@ If your entirely new to the keypad go to this website below to see how to set it
 https://github.com/pimoroni/pmk-circuitpython#readme
 
 # Important!
-Make sure you have the correct libraries intalled into the `lib` folder before using!
+
+Rename any code that you put onto your drive as `code.py`!
+
+Also make sure you have the correct libraries intalled into the `lib` folder before using!
 
 This project uses, `adafruit_bus_device` `adafruit_dotstar.mpy` `adafruit_hid` and `pmk`.
 
