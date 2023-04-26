@@ -1,5 +1,4 @@
-# Drop the `pmk` folder
-# into your `lib` folder on your `CIRCUITPY` drive.
+# Drop into the `CIRCUITPY` drive.
 
 import time
 import math
