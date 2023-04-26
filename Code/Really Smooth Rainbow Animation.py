@@ -1,7 +1,7 @@
 # Drop into the `CIRCUITPY` drive.
 import math
 from pmk import PMK, number_to_xy, hsv_to_rgb
-from pmk.platform.rgbkeypadbase import RGBKeypadBase as Hardware  # for Pico RGB Keypad Base
+from pmk.platform.rgbkeypadbase import RGBKeypadBase as Hardware
 
 # Set up Keybow
 keybow = PMK(Hardware())
@@ -16,8 +16,6 @@ while True:
     step += 1
 
     for i in range(16):
-        # Convert the key number to an x/y coordinate to calculate the hue
-        # in a matrix style-y.
         x, y = number_to_xy(i)
 
         # Calculate the hue.
