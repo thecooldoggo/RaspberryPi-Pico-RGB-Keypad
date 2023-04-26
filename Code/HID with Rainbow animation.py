@@ -1,5 +1,5 @@
 # Drop into the `CIRCUITPY` drive.
-
+#Rainbow animation with keys K, F (for streaming sites), Volume Up, Volume Down, Previous Track, Next Track, Mute, Play/Pause 0,1,2,3, Enter, and Backspace.
 import time
 import math
 from pmk import PMK, number_to_xy, hsv_to_rgb
