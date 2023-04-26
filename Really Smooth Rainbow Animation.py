@@ -1,15 +1,8 @@
-# SPDX-FileCopyrightText: 2021 Sandy Macdonald
-#
-# SPDX-License-Identifier: MIT
-
-# This example displays a spinner animation on Keybow 2040's keys.
-
 # Drop the `pmk` folder
 # into your `lib` folder on your `CIRCUITPY` drive.
 
 import math
 from pmk import PMK, number_to_xy, hsv_to_rgb
-# from pmk.platform.keybow2040 import Keybow2040 as Hardware          # for Keybow 2040
 from pmk.platform.rgbkeypadbase import RGBKeypadBase as Hardware  # for Pico RGB Keypad Base
 
 # Set up Keybow
@@ -20,7 +13,6 @@ keys = keybow.keys
 step = 0
 
 while True:
-    # Always remember to call keybow.update() on every iteration of your loop!
     keybow.update()
 
     step += 1
@@ -38,7 +30,7 @@ while True:
         # Convert the hue to RGB values.
         r, g, b = hsv_to_rgb(hue, 1, 1)
 
-        # Make the output RGB value 50% lower.
+        # Make the output RGB value lower. If you want it brighter increase value.
         r = (r * 0.05)
         g = (g * 0.05)
         b = (b * 0.05)
